@@ -3,7 +3,7 @@ Team Niger II 2020, Hackathon 2 Repository
 
 This README explains how to get started with this repository.
 
-This repository contains code written by Team Nile for the Dufuna-CodeCamp 2020 first Hackathon.
+This repository contains code written by Team NigerII for the Dufuna-CodeCamp 2020 second Hackathon.
 
 # How to get started
 1. Clone this repository.
