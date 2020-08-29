@@ -11,8 +11,7 @@ body{
 /************** THE HEADER **************/
 header{
     padding-top: 10px;
-    min-height: 15%;
-    
+    min-height: 15%;   
 }
 .nav-container{
     width: 100%;
@@ -21,11 +20,11 @@ header{
     border-bottom:2px solid #da5701;
     position:sticky;
     top:0;
-    color: #0c2c3d;
+    color: #233641;
 }
 header #nav-branding{
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 header #nav-branding span,
 .contact span,
@@ -41,44 +40,56 @@ nav li{
     padding:0 30px;
 }
 nav a{
-    color: #0c2c3d;
+    color: #233641;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
 }
 nav a:hover{
     color: #da5701; 
-    text-shadow: 1px 1px 1px  #0c2c3d;
+    text-shadow: 1px 1px 1px  #233641;
 }
 /************** THE SESSION **************/
 /* Home Page */
 
 
+
 /************** THE FOOTER **************/
 footer{
     margin-top: 20px;
-    position: relative;
-    bottom: 0;
-    background-color: #0c2c3d;
+    background-color: #233641;
     color: white;
     overflow: hidden;
+    clear: both;
 }
-.box{
+.contact,
+.search,
+.social-media{
     float: left;
     width: 25%;
     margin: 50px;
 }
 .search input{
- width:70% ;
+ width:60% ;
  height: 30px;
- border-radius: 20px;
  padding: 0 10px;
  outline: none;
  margin-top: 10px;
 }
-.search input:focus{
+.search input:focus,
+.search button:focus{
     box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, .4);
     border:none;
+}
+.search button{
+    padding:5px;
+    font-weight: bold;
+    color: white;
+    background-color: #da5701;
+    outline: none;
+    border: none;
+    width: 30%;
+    height: 35px;
 }
 .icon img{
     width: 35px;
@@ -86,19 +97,28 @@ footer{
     display: inline-block;
     margin:15px;
 }
-
-.light{
+.light, .down{
     border: 1px solid #da5701;
+}
+.light{
     width: 100%;
 }
-.copywrite{
-    display: block;
+.copyrite p{
+    text-align: center;
     margin: 0 auto;
 }
-
-
+.down{
+    width: 70%;
+}
 /************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
-/* @media screen and (max-width: 500px){} */
-/* @media screen and (max-width: 800px){} */
-/* @media screen and (max-width: 950px){} */
+@media screen and (max-width: 950px){
+    header #nav-branding,
+    header nav,
+    header .nav-container  nav li{
+        float: none;
+        text-align: left;
+        display: block;
+        padding: 2px;
+    }
+}
 
