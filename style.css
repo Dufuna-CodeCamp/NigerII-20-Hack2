@@ -80,6 +80,7 @@ nav a:hover{
 .info hr{
     width: 30%;
     border: 1px solid #dd5800;
+
 }
 .info{
     background-color: rgba(216, 216, 216, 0.1);
@@ -133,6 +134,40 @@ nav a:hover{
     padding: 7px;
     margin-bottom: 80px;
 }
+/********* WAIT LIST ***********/
+.container {
+    width: 30%;
+    display: grid;
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin: 50px auto;
+    height: 480px;
+    background-color: white;
+    padding: 15px;
+}
+.test {
+    width: 80%;
+    margin-left: 40px;
+    height: 30px;
+    margin-bottom: 0px;
+}
+.test input:focus,
+.test:focus{
+    box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, 1.4);
+    border:none; }
+.text {
+    padding: 15px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+button {
+    margin: auto;
+    padding: 10px;
+    background-color: #da5701;
+    color: white;
+}
+
 /************** THE FOOTER **************/
 footer{
     background-color: #0d2d3e;
