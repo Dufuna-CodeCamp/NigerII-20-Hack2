@@ -17,7 +17,7 @@ header{
     width: 100%;
     margin: auto;
     overflow: hidden;
-    border-bottom:2px solid #dd5800;
+    border-bottom: 2px solid #dd5800;
     position:sticky;
     top:0;
     color: #0d2d3e;
@@ -37,8 +37,8 @@ header nav{
 }
 nav li{
     display: inline;
-    padding:0 20px;
-    margin: 0 40px;
+    padding:20px;
+    margin:40px;
 }
 a{
     color: #0d2d3e;
@@ -67,6 +67,7 @@ nav a:hover{
     margin: 130px auto;
     display: block;
     border-radius: 50px;
+    overflow: hidden;
 }
 .modal h1,
 .modal h4,
@@ -114,7 +115,7 @@ nav a:hover{
     color: #0d2d3e;
 }
 .readmore{
-    margin: 0 auto;
+    margin: 15px auto;
     display: block;
     font-weight: bold;
     color: white;
@@ -184,7 +185,7 @@ div h3 {
 .container {
     width: 30%;
     display: grid;
-    border: 3px solid gray;
+    border: 1px solid gray;
     border-radius: 15px;
     margin: 50px auto;
     height: 480px;
@@ -196,11 +197,15 @@ div h3 {
     margin-left: 40px;
     height: 30px;
     margin-bottom: 0px;
+    outline: none;
+    color: #0d2d3e;
 }
 .label-input input:focus,
-.label-input:focus{
-    box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, 1.4);
-    border:none; }
+.label-input:focus,
+button:focus{
+    box-shadow: 0 0 10px 10px rgba(281, 87, 1, 0.4);
+    border:none;
+}
 .label-name {
     padding: 15px;
     margin-left: 30px;
@@ -217,8 +222,10 @@ div h3 {
 button {
     margin: auto;
     padding: 10px;
-    background-color: #da5701;
+    background-color: #dd5800;
     color: white;
+    border: 1px solid #dd5800;
+    outline: none;
 }
 
 /************** THE FOOTER **************/
@@ -258,11 +265,6 @@ footer h3,
 }
 
 /************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
-@media screen and (max-width:398px){
-    .search input{
-        width: 155px;
-    }
-}
 @media screen and (max-width: 750px){
     header #nav-branding,
     header nav,
@@ -297,14 +299,14 @@ footer h3,
 }
 /* style for ui/ux, productmanagement & web development career paths */
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 .box{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .small-box{
@@ -314,18 +316,18 @@ footer h3,
 }
 
 .sub{
-    border-bottom: 1px solid #DA5701;
+    border-bottom: 1px solid #dd5800;
     width: 8%;
-    margin: 50px 500px;
+    margin: 40px auto;
 }
 .dub{
-    border-bottom: 1px solid #DA5701;
+    border-bottom: 1px solid #dd5800;
     width: 40%;
     padding-left: 10px;
     margin: 50px 380px;
 }
 .hub{
-    border-bottom: 1px solid #DA5701;
+    border-bottom: 1px solid #dd5800;
     width: 35%;
     margin: 50px 350px;
     padding: 0 15px;
@@ -334,42 +336,43 @@ footer h3,
 /* tablet */
 @media (max-width:576px) {
     .box{
-    display: block;
-    width: 100%;
-}
-.small-box {
-    width: 100%;
-}
-    img {
+        display: block;
+        width: 100%;
+    }
+    .small-box {
+        width: 100%;
+    }
+    .small-box img {
         width: 300px;
     }
     .sub, .dub, .hub{
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    padding: 50px;
-    border:none;
-}
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding: 50px;
+        border:none;
+    }
 }
 /* tablet screen */
-@media (max-width:800px){
-.box{
-    display: block;
-    width: 100%;
-}
-.small-box {
-    width: 100%;
-}
-.sub, .dub, .hub{
-    padding: 20px 20px;
-    margin: 0;
-    text-align: center;
-    border: none;
-    display: block;
-    width: 100%;
-}
+@media (max-width:850px){
+    .box{
+        display: block;
+        width: 100%;
+    }
+    .small-box {
+        width: 100%;
+    }
+    .sub, .dub, .hub{
+        padding: 20px 20px;
+        margin: 0;
+        text-align: center;
+        border: none;
+        display: block;
+        width: 100%;
+    }
 
-img {
-    display: block;
-    margin: 0 auto;
+    .small-box img {
+        display: block;
+        margin: 0 auto;
+    }
 }
