@@ -144,7 +144,13 @@ nav a:hover{
 .engine h1 {
     font-size: 50px;
     text-align: center;
-    margin:20px 0 70px 0;
+    margin:20px 0 20px 0;
+}
+
+.engine hr {
+    width: 30%;
+    border: 1px solid #da5701;
+    margin-bottom: 70px;
 }
 
 .list ul {
