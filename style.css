@@ -141,10 +141,13 @@ nav a:hover{
 }
 
 /*Career paths*/
+.engine{
+    margin-bottom: 70px;
+}
 .engine h1 {
     font-size: 50px;
     text-align: center;
-    margin:20px 0 70px 0;
+    margin:30px 0 10px 0;
 }
 
 .list ul {
@@ -153,7 +156,7 @@ nav a:hover{
 }
 
 
-img {
+.dataengine img {
     height: 250px;
     width: 400px;
     margin: 25px 0 25px 0;
@@ -162,10 +165,12 @@ img {
 .dataengine {
     overflow: hidden;
     margin: 0 30px 0 32px;
+    color: #0d2d3e;
 }
 
 div h3 {
     font-size: 30px;
+    color: #0d2d3e;
 }
 
 .data {
@@ -371,7 +376,8 @@ footer h3,
         width: 100%;
     }
 
-    .small-box img {
+    .small-box img,
+    .dataengine img {
         display: block;
         margin: 0 auto;
     }
