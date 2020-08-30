@@ -43,8 +43,10 @@ nav li{
 a{
     color: #0d2d3e;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: bold;
+}
+nav a{
+    text-transform: uppercase;
 }
 nav a:hover{
     color: #dd5800; 
@@ -79,7 +81,7 @@ nav a:hover{
     margin-bottom: 2px;
 }
 .info hr{
-    width: 30%;
+    width: 40%;
     border: 1px solid #dd5800;
 
 }
@@ -134,6 +136,7 @@ nav a:hover{
     background-color: #dd5800 !important;
     padding: 7px;
     margin-bottom: 80px;
+    width: 100px;
 }
 /********* WAIT LIST ***********/
 .container {
@@ -183,8 +186,8 @@ footer h3,
 .contact,
 .social-media{
     float: left;
-    width: 45%;
-    margin-left: 15px;
+    width: 47%;
+    margin: 20px 0 0 15px;
 }
 .icon img{
     width: 35px;
@@ -195,7 +198,7 @@ footer h3,
     border: 1px solid #dd5800;
 }
 .light{
-    width:80%;
+    width:85%;
 }
 .copyright p{
     text-align: center;
@@ -204,6 +207,7 @@ footer h3,
 .down{
     width: 60%;
 }
+
 /************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
 @media screen and (max-width:398px){
     .search input{
@@ -222,13 +226,12 @@ footer h3,
     .contact,
     .social-media{
         float: none;
-        width: 60%;
+        width: 75%;
         margin: 10px  auto;
-        padding: 10px;
+        padding: 5px;
     }
 }
 @media screen and (max-width: 952px){
-    
     .blog-img,
     .blog-content{
         float: none;
