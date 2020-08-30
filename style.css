@@ -4,23 +4,23 @@ body{
     line-height: 1.5em;
     padding: 0;
     margin: 0; 
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: whitesmoke; 
 }
 /************** THE HEADER **************/
 header{
     padding-top: 10px;
-    min-height: 15%;   
+    min-height: 50px;   
 }
 .nav-container{
     width: 100%;
     margin: auto;
     overflow: hidden;
-    border-bottom:2px solid #da5701;
+    border-bottom:2px solid #dd5800;
     position:sticky;
     top:0;
-    color: #233641;
+    color: #0d2d3e;
 }
 header #nav-branding{
     float: left;
@@ -30,7 +30,7 @@ header #nav-branding span,
 .contact span,
 .copywrite span,
 .search span{
-    color: #da5701;
+    color: #dd5800;
 }
 header nav{
     float: right;
@@ -39,38 +39,85 @@ nav li{
     display: inline;
     padding:0 30px;
 }
-nav a{
-    color: #233641;
+a{
+    color: #0d2d3e;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
 }
 nav a:hover{
-    color: #da5701; 
-    text-shadow: 1px 1px 1px  #233641;
+    color: #dd5800; 
+    text-shadow: 1px 1px 1px #0d2d3e;
 }
 /************** THE SESSION **************/
 /* Home Page */
+.landing-intro{
+    background: url(./image/techHub-banner.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+}
+.modal{
+    background-color: rgba(245, 245, 245,.7);
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+.modal h1{
+    text-align: center;
+    color: #0d2d3e; 
+    font-size: 30px;
+    
+}
 .info{
     background-color: rgba(197, 197, 197, 0.1);
     margin: 0;
-    padding: 30px;
+    padding: 20px;
 }
 .blog{
-    padding: 50px;
+    padding: 30px;
     margin: 20px;
     background-color: whitesmoke;
+    overflow: hidden;
+}
+.blog-img{
+    float: left;
+    width: 17%;
+    margin: 0 10px;
+}
+.blog-img img{
+    width: 190px;
+    height: 190px;
+}
+.blog-content{
+    float: left;
+    width: 79%;
+    margin:0 10px;
+}
+.readmore{
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(128, 128, 128,.7);
+    outline: none;
+    padding: 5px;
+    height: 30px;
+    border: 1px solid grey;
+}
+.readmore:focus{
+    box-shadow: 0 0 .3rem .3rem rgba(128, 128, 128,.4);
+    border:none;
 }
 /************** THE FOOTER **************/
 footer{
-    background-color: #233641;
+    background-color: #0d2d3e;
     color: white;
     overflow: hidden;
     clear: both;
 }
 footer h3,
 .contact p{
-    /* margin: 5px auto; */
     text-align: center;
 }
 .contact,
@@ -89,7 +136,7 @@ footer h3,
 }
 .search input:focus,
 .search button:focus{
-    box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, .4);
+    box-shadow: 0 0 .3rem .3rem rgba(281, 87, 1, .4);
     border:none;
 }
 .search a{
@@ -98,7 +145,7 @@ footer h3,
 .search button{
     font-weight: bold;
     color: white;
-    background-color: #da5701;
+    background-color: #dd5800;
     outline: none;
     border: none;
     height: 33px;
@@ -112,7 +159,7 @@ footer h3,
     margin: 10px;
 }
 .light, .down{
-    border: 1px solid #da5701;
+    border: 1px solid #dd5800;
 }
 .light{
     width: 100%;
