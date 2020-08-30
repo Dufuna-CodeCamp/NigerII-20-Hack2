@@ -37,7 +37,8 @@ header nav{
 }
 nav li{
     display: inline;
-    padding:0 30px;
+    padding:0 20px;
+    margin: 0 40px;
 }
 a{
     color: #0d2d3e;
@@ -96,16 +97,16 @@ nav a:hover{
 }
 .blog-img{
     float: left;
-    width: 15%;
+    width: 20%;
     margin: 0 10px;
 }
 .blog-img img{
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 180px;
 }
 .blog-content{
     float: left;
-    width: 79%;
+    width: 73%;
     margin-left:30px ;
     text-align: justify;
     color: #0d2d3e;
@@ -180,48 +181,21 @@ footer h3,
     text-align: center;
 }
 .contact,
-.search,
 .social-media{
     float: left;
-    width: 29%;
-    margin: 20px;
-}
-.search input{
- width:100%;
- height: 30px;
- padding: 0 5px;
- outline: none;
- margin-top: 10px;
-}
-.search input:focus,
-.search button:focus{
-    box-shadow: 0 0 .3rem .3rem rgba(281, 87, 1, .4);
-    border:none;
-}
-.search a{
-    text-decoration: none;
-}
-.search button{
-    font-weight: bold;
-    color: white;
-    background-color: #dd5800;
-    outline: none;
-    border: none;
-    height: 33px;
-    width: 70px;
-    display: block;
-    margin: 9px auto;
+    width: 45%;
+    margin-left: 15px;
 }
 .icon img{
     width: 35px;
     height: 35px;
-    margin: 10px;
+    margin-left: 35px;
 }
 .light, .down{
     border: 1px solid #dd5800;
 }
 .light{
-    width: 100%;
+    width:80%;
 }
 .copyright p{
     text-align: center;
@@ -236,21 +210,7 @@ footer h3,
         width: 155px;
     }
 }
-@media screen and (max-width: 650px){
-    .contact,
-    .search,
-    .social-media{
-        float: none;
-        width: 100%;
-        margin: 10px  auto;
-    }
-    .icon img{
-        display: block;
-        margin: 0 auto;
-        padding: 5px;
-    }
-}
-@media screen and (max-width: 952px){
+@media screen and (max-width: 750px){
     header #nav-branding,
     header nav,
     header .nav-container  nav li{
@@ -259,6 +219,16 @@ footer h3,
         display: block;
         padding: 2px;
     }
+    .contact,
+    .social-media{
+        float: none;
+        width: 60%;
+        margin: 10px  auto;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 952px){
+    
     .blog-img,
     .blog-content{
         float: none;
@@ -271,14 +241,6 @@ footer h3,
     }
     .blog-content h2{
         text-align: center;
-    }
-    .contact,
-    .search{
-        width: 40%;
-    }
-    .social-media{
-        float: none;
-        width: 40%;
     }
 }
 
