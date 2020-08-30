@@ -1,0 +1,246 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0; 
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke; 
+}
+/************** THE HEADER **************/
+header{
+    padding-top: 10px;
+    min-height: 15%;   
+}
+.nav-container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-bottom:2px solid #da5701;
+    position:sticky;
+    top:0;
+    color: #233641;
+}
+header #nav-branding{
+    float: left;
+    margin-left: 30px;
+}
+header #nav-branding span,
+.contact span,
+.copywrite span,
+.search span{
+    color: #da5701;
+}
+header nav{
+    float: right;
+}
+nav li{
+    display: inline;
+    padding:0 30px;
+}
+nav a{
+    color: #233641;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #da5701; 
+    text-shadow: 1px 1px 1px  #233641;
+}
+/************** THE SESSION **************/
+/* Home Page */
+.info{
+    background-color: rgba(197, 197, 197, 0.1);
+    margin: 0;
+    padding: 30px;
+}
+.blog{
+    padding: 50px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+
+/* style for ui/ux, productmanagement & web development career paths */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.small-box{
+    width: 50%;
+    text-align: justify;
+    padding: 30px
+}
+
+.sub{
+    border-bottom: 1px solid #DA5701;
+    width: 8%;
+    margin: 50px 500px;
+}
+.dub{
+    border-bottom: 1px solid #DA5701;
+    width: 40%;
+    padding-left: 10px;
+    margin: 50px 380px;
+}
+.hub{
+    border-bottom: 1px solid #DA5701;
+    width: 35%;
+    margin: 50px 350px;
+    padding: 0 15px;
+}
+/* media queries for ui/ux, productmanagement & web development career paths */
+/* tablet */
+@media (max-width:576px) {
+    .box{
+    display: block;
+    width: 100%;
+}
+.small-box {
+    width: 100%;
+}
+    img {
+        width: 300px;
+    }
+    .sub, .dub, .hub{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+    border:none;
+}
+}
+/* tablet screen */
+@media (max-width:800px){
+.box{
+    display: block;
+    width: 100%;
+}
+.small-box {
+    width: 100%;
+}
+.sub, .dub, .hub{
+    padding: 20px 20px;
+    margin: 0;
+    text-align: center;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+}
+
+/************** THE FOOTER **************/
+footer{
+    background-color: #233641;
+    color: white;
+    overflow: hidden;
+    clear: both;
+}
+footer h3,
+.contact p{
+    /* margin: 5px auto; */
+    text-align: center;
+}
+.contact,
+.search,
+.social-media{
+    float: left;
+    width: 29%;
+    margin: 20px;
+}
+.search input{
+ width:100%;
+ height: 30px;
+ padding: 0 5px;
+ outline: none;
+ margin-top: 10px;
+}
+.search input:focus,
+.search button:focus{
+    box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, .4);
+    border:none;
+}
+.search a{
+    text-decoration: none;
+}
+.search button{
+    font-weight: bold;
+    color: white;
+    background-color: #da5701;
+    outline: none;
+    border: none;
+    height: 33px;
+    width: 70px;
+    display: block;
+    margin: 9px auto;
+}
+.icon img{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+.light, .down{
+    border: 1px solid #da5701;
+}
+.light{
+    width: 100%;
+}
+.copyright p{
+    text-align: center;
+    margin: 0 auto;
+}
+.down{
+    width: 60%;
+}
+/************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
+@media screen and (max-width:398px){
+    .search input{
+        width: 155px;
+    }
+}
+@media screen and (max-width: 650px){
+    .contact,
+    .search,
+    .social-media{
+        float: none;
+        width: 100%;
+        margin: 10px  auto;
+    }
+    .icon img{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 925px){
+    header #nav-branding,
+    header nav,
+    header .nav-container  nav li{
+        float: none;
+        text-align: left;
+        display: block;
+        padding: 2px;
+    }
+    .contact,
+    .search{
+        width: 40%;
+    }
+    .social-media{
+        float: none;
+        width: 40%;
+    }
+}
+
