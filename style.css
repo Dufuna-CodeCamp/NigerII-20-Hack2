@@ -51,49 +51,64 @@ nav a:hover{
 }
 /************** THE SESSION **************/
 /* Home Page */
-
 .landing-intro{
     background: url(./image/techHub-banner.jpg) no-repeat center center;
     background-size: cover;
-    height: 70%;
+    height: 72%;
+    overflow: hidden;
 }
 .modal{
-    background-color: rgba(245, 245, 245,.7);
-    padding: 5px;
-    margin: 0 auto;
-    display: block;
+    background-color: rgba(255, 255, 255,.4);
+    padding: 10px;
     width: fit-content;
+    margin: 130px auto;
+    display: block;
+    border-radius: 50px;
 }
-.modal h1{
+.modal h1,
+.modal h4,
+.info h1,
+.waitlist-description{
     text-align: center;
     color: #0d2d3e; 
+}
+.modal h1,
+.info h1{
     font-size: 30px;
-    
+    margin-bottom: 2px;
+}
+.info hr{
+    width: 30%;
+    border: 1px solid #dd5800;
+
 }
 .info{
-    background-color: rgba(197, 197, 197, 0.1);
+    background-color: rgba(216, 216, 216, 0.1);
     margin: 0;
     padding: 20px;
+    overflow: hidden;
 }
 .blog{
     padding: 30px;
-    margin: 20px;
-    background-color: whitesmoke;
+    margin: 50px 10px;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
 }
 .blog-img{
     float: left;
-    width: 17%;
+    width: 15%;
     margin: 0 10px;
 }
 .blog-img img{
-    width: 190px;
-    height: 190px;
+    width: 150px;
+    height: 150px;
 }
 .blog-content{
     float: left;
     width: 79%;
-    margin:0 10px;
+    margin-left:30px ;
+    text-align: justify;
+    color: #0d2d3e;
 }
 .readmore{
     margin: 0 auto;
@@ -105,10 +120,19 @@ nav a:hover{
     padding: 5px;
     height: 30px;
     border: 1px solid grey;
+    text-transform: uppercase;
 }
 .readmore:focus{
     box-shadow: 0 0 .3rem .3rem rgba(128, 128, 128,.4);
     border:none;
+}
+.waitlist-description{
+    padding: 20px;
+}
+.waitlist-btn{
+    background-color: #dd5800 !important;
+    padding: 7px;
+    margin-bottom: 80px;
 }
 /********* WAIT LIST ***********/
 .container {
@@ -226,7 +250,7 @@ footer h3,
         padding: 5px;
     }
 }
-@media screen and (max-width: 925px){
+@media screen and (max-width: 952px){
     header #nav-branding,
     header nav,
     header .nav-container  nav li{
@@ -234,6 +258,19 @@ footer h3,
         text-align: left;
         display: block;
         padding: 2px;
+    }
+    .blog-img,
+    .blog-content{
+        float: none;
+        width: 95%;
+    }
+    .blog-img img,
+    .blog-content{
+        margin: 0 auto;
+        display: block;
+    }
+    .blog-content h2{
+        text-align: center;
     }
     .contact,
     .search{
