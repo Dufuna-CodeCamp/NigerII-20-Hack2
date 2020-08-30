@@ -299,7 +299,7 @@ footer h3,
     .small-box {
         width: 100%;
     }
-    img {
+    .small-box img {
         width: 300px;
     }
     .sub, .dub, .hub{
@@ -328,7 +328,7 @@ footer h3,
         width: 100%;
     }
 
-    img {
+    .small-box img {
         display: block;
         margin: 0 auto;
     }
