@@ -70,12 +70,13 @@ nav a:hover{
     margin: 50px auto;
     height: 480px;
     background-color: white;
-    padding: 20px;
+    padding: 15px;
 }
 .test {
     width: 80%;
     margin-left: 40px;
     height: 30px;
+    margin-bottom: 0px;
 }
 .test input:focus,
 .test:focus{
@@ -85,7 +86,7 @@ nav a:hover{
     padding: 15px;
     margin-left: 30px;
     font-size: 20px;
-    margin-top: 10px;
+    margin-bottom: 0px;
 }
 button {
     margin: auto;
