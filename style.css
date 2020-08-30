@@ -103,8 +103,6 @@ nav a:hover{
     width: 150px;
     height: 150px;
 }
-<<<<<<< HEAD
-=======
 .blog-content{
     float: left;
     width: 79%;
@@ -136,7 +134,6 @@ nav a:hover{
     padding: 7px;
     margin-bottom: 80px;
 }
->>>>>>> 0692cb420a3b173de3a02c9db32d80252c004613
 /********* WAIT LIST ***********/
 .container {
     width: 30%;
@@ -148,17 +145,17 @@ nav a:hover{
     background-color: white;
     padding: 15px;
 }
-.test {
+.label-input {
     width: 80%;
     margin-left: 40px;
     height: 30px;
     margin-bottom: 0px;
 }
-.test input:focus,
-.test:focus{
+.label-input input:focus,
+.label-input:focus{
     box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, 1.4);
     border:none; }
-.text {
+.label-name {
     padding: 15px;
     margin-left: 30px;
     font-size: 20px;
