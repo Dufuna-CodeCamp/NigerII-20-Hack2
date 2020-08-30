@@ -65,27 +65,33 @@ nav a:hover{
 .container {
     width: 30%;
     display: grid;
-    border: 3px solid goldenrod;
-    border-radius: 10px;
+    border: 3px solid gray;
+    border-radius: 15px;
     margin: 50px auto;
     height: 480px;
+    background-color: white;
+    padding: 20px;
 }
 .test {
     width: 80%;
     margin-left: 40px;
+    height: 30px;
 }
+.test input:focus,
+.test:focus{
+    box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, 1.4);
+    border:none; }
 .text {
     padding: 15px;
     margin-left: 30px;
     font-size: 20px;
+    margin-top: 10px;
 }
 button {
     margin: auto;
     padding: 10px;
-    color: blue;
-}
-button:hover {
-    background-color: coral;
+    background-color: #da5701;
+    color: white;
 }
 
 /************** THE FOOTER **************/
