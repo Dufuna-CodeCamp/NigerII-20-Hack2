@@ -149,21 +149,28 @@ nav a:hover{
     background-color: white;
     padding: 15px;
 }
-.test {
+.label-input {
     width: 80%;
     margin-left: 40px;
     height: 30px;
     margin-bottom: 0px;
 }
-.test input:focus,
-.test:focus{
+.label-input input:focus,
+.label-input:focus{
     box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, 1.4);
     border:none; }
-.text {
+.label-name {
     padding: 15px;
     margin-left: 30px;
     font-size: 20px;
     margin-bottom: 0px;
+}
+.text {
+    text-align: center;
+}
+.text-line {
+    border: 1px solid #dd5800;
+    width: 390px;
 }
 button {
     margin: auto;
