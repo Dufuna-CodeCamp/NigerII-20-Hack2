@@ -139,6 +139,48 @@ nav a:hover{
     margin-bottom: 80px;
     width: 100px;
 }
+
+/*Career paths*/
+.engine h1 {
+    font-size: 50px;
+    text-align: center;
+    margin:20px 0 70px 0;
+}
+
+.list ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+img {
+    height: 250px;
+    width: 400px;
+    margin: 25px 0 25px 0;
+}
+
+.dataengine {
+    overflow: hidden;
+    margin: 0 30px 0 32px;
+}
+
+div h3 {
+    font-size: 30px;
+}
+
+.data {
+    float: right;
+    width: 45%;
+    text-align: justify;
+}
+
+.skill {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
 /********* WAIT LIST ***********/
 .container {
     width: 30%;
@@ -266,6 +308,7 @@ footer h3,
     margin: 0;
     padding: 0;
 }
+
 .small-box{
     width: 50%;
     text-align: justify;
