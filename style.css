@@ -61,6 +61,87 @@ nav a:hover{
     margin: 20px;
     background-color: whitesmoke;
 }
+
+
+/* style for ui/ux, productmanagement & web development career paths */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.small-box{
+    width: 50%;
+    text-align: justify;
+    padding: 30px
+}
+
+.sub{
+    border-bottom: 1px solid #DA5701;
+    width: 8%;
+    margin: 50px 500px;
+}
+.dub{
+    border-bottom: 1px solid #DA5701;
+    width: 40%;
+    padding-left: 10px;
+    margin: 50px 380px;
+}
+.hub{
+    border-bottom: 1px solid #DA5701;
+    width: 35%;
+    margin: 50px 350px;
+    padding: 0 15px;
+}
+/* media queries for ui/ux, productmanagement & web development career paths */
+/* tablet */
+@media (max-width:576px) {
+    .box{
+    display: block;
+    width: 100%;
+}
+.small-box {
+    width: 100%;
+}
+    img {
+        width: 300px;
+    }
+    .sub, .dub, .hub{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+    border:none;
+}
+}
+/* tablet screen */
+@media (max-width:800px){
+.box{
+    display: block;
+    width: 100%;
+}
+.small-box {
+    width: 100%;
+}
+.sub, .dub, .hub{
+    padding: 20px 20px;
+    margin: 0;
+    text-align: center;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+}
+
 /************** THE FOOTER **************/
 footer{
     background-color: #233641;
