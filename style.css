@@ -161,6 +161,13 @@ nav a:hover{
     font-size: 20px;
     margin-bottom: 0px;
 }
+.text {
+    text-align: center;
+}
+.text-line {
+    border: 1px solid #dd5800;
+    width: 390px;
+}
 button {
     margin: auto;
     padding: 10px;
