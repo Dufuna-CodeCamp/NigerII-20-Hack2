@@ -51,26 +51,37 @@ nav a:hover{
 }
 /************** THE SESSION **************/
 /* Home Page */
-
-
-
+.info{
+    background-color: rgba(197, 197, 197, 0.1);
+    margin: 0;
+    padding: 30px;
+}
+.blog{
+    padding: 50px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
 /************** THE FOOTER **************/
 footer{
-    margin-top: 20px;
     background-color: #233641;
     color: white;
     overflow: hidden;
     clear: both;
 }
+footer h3,
+.contact p{
+    /* margin: 5px auto; */
+    text-align: center;
+}
 .contact,
 .search,
 .social-media{
     float: left;
-    width: 30%;
+    width: 29%;
     margin: 20px;
 }
 .search input{
- width:60% ;
+ width:100%;
  height: 30px;
  padding: 0 5px;
  outline: none;
@@ -81,21 +92,24 @@ footer{
     box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, .4);
     border:none;
 }
+.search a{
+    text-decoration: none;
+}
 .search button{
-    padding:5px;
     font-weight: bold;
     color: white;
     background-color: #da5701;
     outline: none;
     border: none;
-    width: 30%;
-    height: 35px;
+    height: 33px;
+    width: 70px;
+    display: block;
+    margin: 9px auto;
 }
 .icon img{
     width: 35px;
     height: 35px;
-    display: inline-block;
-    margin:15px;
+    margin: 10px;
 }
 .light, .down{
     border: 1px solid #da5701;
@@ -103,15 +117,34 @@ footer{
 .light{
     width: 100%;
 }
-.copyrite p{
+.copyright p{
     text-align: center;
     margin: 0 auto;
 }
 .down{
-    width: 70%;
+    width: 60%;
 }
 /************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
-@media screen and (max-width: 950px){
+@media screen and (max-width:398px){
+    .search input{
+        width: 155px;
+    }
+}
+@media screen and (max-width: 650px){
+    .contact,
+    .search,
+    .social-media{
+        float: none;
+        width: 100%;
+        margin: 10px  auto;
+    }
+    .icon img{
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 925px){
     header #nav-branding,
     header nav,
     header .nav-container  nav li{
@@ -119,6 +152,14 @@ footer{
         text-align: left;
         display: block;
         padding: 2px;
+    }
+    .contact,
+    .search{
+        width: 40%;
+    }
+    .social-media{
+        float: none;
+        width: 40%;
     }
 }
 
