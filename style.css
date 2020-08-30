@@ -37,20 +37,25 @@ header nav{
 }
 nav li{
     display: inline;
-    padding:0 30px;
+    padding:0 20px;
+    margin: 0 40px;
 }
 nav a{
     color: #233641;
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: bold;
+}
+nav a{
+    text-transform: uppercase;
 }
 nav a:hover{
     color: #da5701; 
     text-shadow: 1px 1px 1px  #233641;
 }
 /************** THE SESSION **************/
-/* Home Page */
+/* Home Page *
+
+
 .info{
     background-color: rgba(197, 197, 197, 0.1);
     margin: 0;
@@ -61,19 +66,6 @@ nav a:hover{
     margin: 20px;
     background-color: whitesmoke;
 }
-/* style for ui/ux, productmanagement & web development career paths */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.box{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-}
-.small-box{
-    width: 50%;
     text-align: justify;
     padding: 30px
 }
@@ -132,6 +124,55 @@ nav a:hover{
     border: none;
     display: block;
     width: 100%;
+
+.waitlist-description{
+    padding: 20px;
+}
+.waitlist-btn{
+    background-color: #dd5800 !important;
+    padding: 7px;
+    margin-bottom: 80px;
+    width: 100px;
+}
+/********* WAIT LIST ***********/
+.container {
+    width: 30%;
+    display: grid;
+    border: 3px solid gray;
+    border-radius: 15px;
+    margin: 50px auto;
+    height: 480px;
+    background-color: white;
+    padding: 15px;
+}
+.label-input {
+    width: 80%;
+    margin-left: 40px;
+    height: 30px;
+    margin-bottom: 0px;
+}
+.label-input input:focus,
+.label-input:focus{
+    box-shadow: 0 0 .4rem .4rem rgba(281, 87, 1, 1.4);
+    border:none; }
+.label-name {
+    padding: 15px;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.text {
+    text-align: center;
+}
+.text-line {
+    border: 1px solid #dd5800;
+    width: 390px;
+}
+button {
+    margin: auto;
+    padding: 10px;
+    background-color: #da5701;
+    color: white;
 }
 
 img {
@@ -152,9 +193,9 @@ footer h3,
     text-align: center;
 }
 .contact,
-.search,
 .social-media{
     float: left;
+
     width: 29%;
     margin: 20px;
 }
@@ -183,17 +224,20 @@ footer h3,
     width: 70px;
     display: block;
     margin: 9px auto;
+    width: 47%;
+    margin: 20px 0 0 15px;
+
 }
 .icon img{
     width: 35px;
     height: 35px;
-    margin: 10px;
+    margin-left: 35px;
 }
 .light, .down{
     border: 1px solid #da5701;
 }
 .light{
-    width: 100%;
+    width:85%;
 }
 .copyright p{
     text-align: center;
@@ -202,6 +246,7 @@ footer h3,
 .down{
     width: 60%;
 }
+
 /************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
 @media screen and (max-width:398px){
     .search input{
@@ -223,6 +268,8 @@ footer h3,
     }
 }
 @media screen and (max-width: 925px){
+@media screen and (max-width: 750px){
+
     header #nav-branding,
     header nav,
     header .nav-container  nav li{
@@ -238,6 +285,55 @@ footer h3,
     .social-media{
         float: none;
         width: 40%;
+
+    .social-media{
+        float: none;
+        width: 75%;
+        margin: 10px  auto;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 952px){
+    .blog-img,
+    .blog-content{
+        float: none;
+        width: 95%;
+    }
+    .blog-img img,
+    .blog-content{
+        margin: 0 auto;
+        display: block;
+    }
+    .blog-content h2{
+        text-align: center;
     }
 }
 
+/* style for ui/ux, productmanagement & web development career paths */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.small-box{
+    width: 50%;
+.blog-img{
+    float: left;
+    width: 20%;
+    margin: 0 10px;
+}
+.blog-img img{
+    width: 190px;
+    height: 180px;
+}
+.blog-content{
+    float: left;
+    width: 73%;
+    margin-left:30px ;
+  }
+  
