@@ -1,463 +1,468 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    line-height: 1.5em;
-    padding: 0;
-    margin: 0; 
-    height: 100vh;
-    width: 100vw;
-    background-color: whitesmoke; 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: whitesmoke;
 }
 /************** THE HEADER **************/
-header{
-    padding-top: 10px;
-    min-height: 50px;   
+header {
+  padding-top: 10px;
+  min-height: 50px;
 }
-.nav-container{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    border-bottom: 2px solid #dd5800;
-    position:sticky;
-    top:0;
-    color: #0d2d3e;
+.nav-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-bottom: 2px solid #dd5800;
+  position: sticky;
+  top: 0;
+  color: #0d2d3e;
 }
-header #nav-branding{
-    float: left;
-    margin-left: 30px;
+header #nav-branding {
+  float: left;
+  margin-left: 30px;
 }
 header #nav-branding span,
 .contact span,
 .copywrite span,
-.search span{
-    color: #dd5800;
+.search span {
+  color: #dd5800;
 }
-header nav{
-    float: right;
+header nav {
+  float: right;
 }
-nav li{
-    display: inline;
-    padding:20px;
-    margin:40px;
+nav li {
+  display: inline;
+  padding: 20px;
+  margin: 40px;
 }
-a{
-    color: #0d2d3e;
-    text-decoration: none;
-    font-weight: bold;
+a {
+  color: #0d2d3e;
+  text-decoration: none;
+  font-weight: bold;
 }
-nav a{
-    text-transform: uppercase;
+nav a {
+  text-transform: uppercase;
 }
-nav a:hover{
-    color: #dd5800; 
-    text-shadow: 1px 1px 1px #0d2d3e;
+nav a:hover {
+  color: #dd5800;
+  text-shadow: 1px 1px 1px #0d2d3e;
 }
 /************** THE SESSION **************/
 /* Home Page */
-.landing-intro{
-    background: url(./image/techHub-banner.jpg) no-repeat center center;
-    background-size: cover;
-    height: 72%;
-    overflow: hidden;
+.landing-intro {
+  background: url(./image/techHub-banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 72%;
+  overflow: hidden;
 }
-.modal{
-    background-color: rgba(255, 255, 255,.4);
-    padding: 10px;
-    width: fit-content;
-    margin: 130px auto;
-    display: block;
-    border-radius: 50px;
-    overflow: hidden;
+.modal {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  width: fit-content;
+  margin: 130px auto;
+  display: block;
+  border-radius: 50px;
+  overflow: hidden;
 }
 .modal h1,
 .modal h4,
 .info h1,
-.waitlist-description{
-    text-align: center;
-    color: #0d2d3e; 
+.waitlist-description {
+  text-align: center;
+  color: #0d2d3e;
 }
 .modal h1,
-.info h1{
-    font-size: 30px;
-    margin-bottom: 2px;
+.info h1 {
+  font-size: 30px;
+  margin-bottom: 2px;
 }
-.info hr{
-    width: 40%;
-    border: 1px solid #dd5800;
-
+.info hr {
+  width: 40%;
+  border: 1px solid #dd5800;
 }
-.info{
-    background-color: rgba(216, 216, 216, 0.1);
-    margin: 0;
-    padding: 20px;
-    overflow: hidden;
+.info {
+  background-color: rgba(216, 216, 216, 0.1);
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
 }
-.blog{
-    padding: 30px;
-    margin: 50px 10px;
-    background-color: rgb(255, 255, 255);
-    overflow: hidden;
+.blog {
+  padding: 30px;
+  margin: 50px 10px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
 }
-.blog-img{
-    float: left;
-    width: 20%;
-    margin: 0 10px;
+.blog-img {
+  float: left;
+  width: 20%;
+  margin: 0 10px;
 }
-.blog-img img{
-    width: 190px;
-    height: 180px;
+.blog-img img {
+  width: 190px;
+  height: 180px;
 }
-.blog-content{
-    float: left;
-    width: 73%;
-    margin-left:30px ;
-    text-align: justify;
-    color: #0d2d3e;
+.blog-content {
+  float: left;
+  width: 73%;
+  margin-left: 30px;
+  text-align: justify;
+  color: #0d2d3e;
 }
-.readmore{
-    margin: 15px auto;
-    display: block;
-    font-weight: bold;
-    color: white;
-    background-color: rgba(128, 128, 128,.7);
-    outline: none;
-    padding: 5px;
-    height: 30px;
-    border: 1px solid grey;
-    text-transform: uppercase;
+.readmore {
+  margin: 15px auto;
+  display: block;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.7);
+  outline: none;
+  padding: 5px;
+  height: 30px;
+  border: 1px solid grey;
+  text-transform: uppercase;
 }
-.readmore:focus{
-    box-shadow: 0 0 .3rem .3rem rgba(128, 128, 128,.4);
-    border:none;
+.readmore:focus {
+  box-shadow: 0 0 0.3rem 0.3rem rgba(128, 128, 128, 0.4);
+  border: none;
 }
-.waitlist-description{
-    padding: 20px;
+.waitlist-description {
+  padding: 20px;
 }
-.waitlist-btn{
-    background-color: #dd5800 !important;
-    padding: 7px;
-    margin-bottom: 80px;
-    width: 100px;
+.waitlist-btn {
+  background-color: #dd5800 !important;
+  padding: 7px;
+  margin-bottom: 80px;
+  width: 100px;
 }
 
 /*Career paths*/
-.engine{
-    margin-bottom: 70px;
+.engine {
+  margin-bottom: 70px;
 }
 .engine h1 {
-    font-size: 50px;
-    text-align: center;
-    margin:30px 0 10px 0;
+  font-size: 50px;
+  text-align: center;
+  margin: 30px 0 10px 0;
 }
 
 .list ul {
-    list-style-type: none;
-    text-decoration: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
-
 .dataengine img {
-    height: 250px;
-    width: 400px;
-    margin: 25px 0 25px 0;
+  height: 250px;
+  width: 400px;
+  margin: 25px 0 25px 0;
 }
 
 .dataengine {
-    overflow: hidden;
-    margin: 0 30px 0 32px;
-    color: #0d2d3e;
+  overflow: hidden;
+  margin: 0 30px 0 32px;
+  color: #0d2d3e;
 }
 
 div h3 {
-    font-size: 30px;
-    color: #0d2d3e;
+  font-size: 30px;
+  color: #0d2d3e;
 }
 
 .data {
-    float: right;
-    width: 45%;
-    text-align: justify;
+  float: right;
+  width: 45%;
+  text-align: justify;
 }
 
 .skill {
-    float: left;
-    width: 45%;
-    text-align: justify;
-    padding-bottom: 20px;
+  float: left;
+  width: 45%;
+  text-align: justify;
+  padding-bottom: 20px;
 }
 /* style for ui/ux, productmanagement & web development career paths */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.box{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+.box {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.small-box{
-    width: 50%;
-    text-align: justify;
-    padding: 30px
+.small-box {
+  width: 50%;
+  text-align: justify;
+  padding: 30px;
 }
 
-.sub{
-    border-bottom: 1px solid #DA5701;
-    width: 8%;
-    margin: 50px 500px;
+.sub {
+  border-bottom: 1px solid #da5701;
+  width: 8%;
+  margin: 50px 500px;
 }
-.dub{
-    border-bottom: 1px solid #DA5701;
-    width: 40%;
-    padding-left: 10px;
-    margin: 50px 380px;
+.dub {
+  border-bottom: 1px solid #da5701;
+  width: 40%;
+  padding-left: 10px;
+  margin: 50px 380px;
 }
-.hub{
-    border-bottom: 1px solid #DA5701;
-    width: 35%;
-    margin: 50px 350px;
-    padding: 0 15px;
+.hub {
+  border-bottom: 1px solid #da5701;
+  width: 35%;
+  margin: 50px 350px;
+  padding: 0 15px;
 }
 /* media queries for ui/ux, productmanagement & web development career paths */
 /* phone  screen*/
-@media (max-width:576px) {
-    .box{
+@media (max-width: 576px) {
+  .box {
     display: block;
     width: 100%;
-}
-.small-box {
+  }
+  .small-box {
     width: 100%;
-}
-    img {
-        width: 300px;
-    }
-    .sub, .dub, .hub{
+  }
+  img {
+    width: 300px;
+  }
+  .sub,
+  .dub,
+  .hub {
     padding: 0;
     margin: 0;
     text-align: center;
     padding: 50px;
-    border:none;
-}
+    border: none;
+  }
 }
 /* tablet screen */
-@media (max-width:800px){
-.box{
+@media (max-width: 800px) {
+  .box {
     display: block;
     width: 100%;
-}
-.small-box {
+  }
+  .small-box {
     width: 100%;
-}
-.sub, .dub, .hub{
+  }
+  .sub,
+  .dub,
+  .hub {
     padding: 20px 20px;
     margin: 0;
     text-align: center;
     border: none;
     display: block;
     width: 100%;
-}
+  }
 
-img {
+  img {
     display: block;
     margin: 0 auto;
-}
+  }
 }
 
 /********* WAIT LIST ***********/
 .container {
-    width: 30%;
-    display: grid;
-    border: 1px solid gray;
-    border-radius: 15px;
-    margin: 50px auto;
-    height: 480px;
-    background-color: white;
-    padding: 15px;
+  width: 30%;
+  display: grid;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin: 50px auto;
+  height: 480px;
+  background-color: white;
+  padding: 15px;
 }
 .label-input {
-    width: 80%;
-    margin-left: 40px;
-    height: 30px;
-    margin-bottom: 0px;
-    outline: none;
-    color: #0d2d3e;
+  width: 80%;
+  margin-left: 40px;
+  height: 30px;
+  margin-bottom: 0px;
+  outline: none;
+  color: #0d2d3e;
 }
 .label-input input:focus,
 .label-input:focus,
-button:focus{
-    box-shadow: 0 0 10px 10px rgba(281, 87, 1, 0.4);
-    border:none;
+button:focus {
+  box-shadow: 0 0 10px 10px rgba(281, 87, 1, 0.4);
+  border: none;
 }
 .label-name {
-    padding: 15px;
-    margin-left: 30px;
-    font-size: 20px;
-    margin-bottom: 0px;
+  padding: 15px;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
 .text {
-    text-align: center;
+  text-align: center;
 }
 .text-line {
-    border: 1px solid #dd5800;
-    width: 390px;
+  border: 1px solid #dd5800;
+  width: 390px;
 }
 button {
-    margin: auto;
-    padding: 10px;
-    background-color: #dd5800;
-    color: white;
-    border: 1px solid #dd5800;
-    outline: none;
+  margin: auto;
+  padding: 10px;
+  background-color: #dd5800;
+  color: white;
+  border: 1px solid #dd5800;
+  outline: none;
 }
 
 /************** THE FOOTER **************/
-footer{
-    background-color: #0d2d3e;
-    color: white;
-    overflow: hidden;
-    clear: both;
+footer {
+  background-color: #0d2d3e;
+  color: white;
+  overflow: hidden;
+  clear: both;
 }
 footer h3,
-.contact p{
-    text-align: center;
-    color: white;
+.contact p {
+  text-align: center;
+  color: white;
 }
 .contact,
-.social-media{
-    float: left;
-    width: 47%;
-    margin: 20px 0 0 15px;
+.social-media {
+  float: left;
+  width: 47%;
+  margin: 20px 0 0 15px;
 }
-.icon img{
-    width: 35px;
-    height: 35px;
-    margin-left: 35px;
+.icon img {
+  width: 35px;
+  height: 35px;
+  margin-left: 35px;
 }
-.light, .down{
-    border: 1px solid #dd5800;
+.light,
+.down {
+  border: 1px solid #dd5800;
 }
-.light{
-    width:85%;
+.light {
+  width: 85%;
 }
-.copyright p{
-    text-align: center;
-    margin: 0 auto;
+.copyright p {
+  text-align: center;
+  margin: 0 auto;
 }
-.down{
-    width: 60%;
+.down {
+  width: 60%;
 }
 
 /************** THE MEDIA QUERIES FOR RESPONSIVNESS **************/
-@media screen and (max-width: 750px){
-    header #nav-branding,
-    header nav,
-    header .nav-container  nav li{
-        float: none;
-        text-align: left;
-        display: block;
-        padding: 2px;
-    }
-    .contact,
-    .social-media{
-        float: none;
-        width: 75%;
-        margin: 10px  auto;
-        padding: 5px;
-    }
+@media screen and (max-width: 750px) {
+  header #nav-branding,
+  header nav,
+  header .nav-container nav li {
+    float: none;
+    text-align: left;
+    display: block;
+    padding: 2px;
+  }
+  .contact,
+  .social-media {
+    float: none;
+    width: 75%;
+    margin: 10px auto;
+    padding: 5px;
+  }
 }
-@media screen and (max-width: 952px){
-    .blog-img,
-    .blog-content{
-        float: none;
-        width: 95%;
-    }
-    .blog-img img,
-    .blog-content{
-        margin: 0 auto;
-        display: block;
-    }
-    .blog-content h2{
-        text-align: center;
-    }
+@media screen and (max-width: 952px) {
+  .blog-img,
+  .blog-content {
+    float: none;
+    width: 95%;
+  }
+  .blog-img img,
+  .blog-content {
+    margin: 0 auto;
+    display: block;
+  }
+  .blog-content h2 {
+    text-align: center;
+  }
 }
 /* style for ui/ux, productmanagement & web development career paths */
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.box{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-}
-
-.small-box{
-    width: 50%;
-    text-align: justify;
-    padding: 30px
+.box {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
-.sub{
-    border-bottom: 1px solid #dd5800;
-    width: 8%;
-    margin: 40px auto;
+.small-box {
+  width: 50%;
+  text-align: justify;
+  padding: 30px;
 }
-.dub{
-    border-bottom: 1px solid #dd5800;
-    width: 40%;
-    padding-left: 10px;
-    margin: 50px 380px;
+
+.sub {
+  border-bottom: 1px solid #dd5800;
+  width: 8%;
+  margin: 40px auto;
 }
-.hub{
-    border-bottom: 1px solid #dd5800;
-    width: 35%;
-    margin: 50px 350px;
-    padding: 0 15px;
+.dub {
+  border-bottom: 1px solid #dd5800;
+  width: 40%;
+  padding-left: 10px;
+  margin: 50px 380px;
+}
+.hub {
+  border-bottom: 1px solid #dd5800;
+  width: 35%;
+  margin: 50px 350px;
+  padding: 0 15px;
 }
 /* media queries for ui/ux, productmanagement & web development career paths */
 /* tablet */
-@media (max-width:576px) {
-    .box{
-        display: block;
-        width: 100%;
-    }
-    .small-box {
-        width: 100%;
-    }
-    .small-box img {
-        width: 300px;
-    }
-    .sub, .dub, .hub{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        padding: 50px;
-        border:none;
-    }
+@media (max-width: 576px) {
+  .box {
+    display: block;
+    width: 100%;
+  }
+  .small-box {
+    width: 100%;
+  }
+  .small-box img {
+    width: 300px;
+  }
+  .sub,
+  .dub,
+  .hub {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+    border: none;
+  }
 }
 /* tablet screen */
-@media (max-width:850px){
-    .box{
-        display: block;
-        width: 100%;
-    }
-    .small-box {
-        width: 100%;
-    }
-    .sub, .dub, .hub{
-        padding: 20px 20px;
-        margin: 0;
-        text-align: center;
-        border: none;
-        display: block;
-        width: 100%;
-    }
+@media (max-width: 850px) {
+  .box {
+    display: block;
+    width: 100%;
+  }
+  .small-box {
+    width: 100%;
+  }
+  .sub,
+  .dub,
+  .hub {
+    padding: 20px 20px;
+    margin: 0;
+    text-align: center;
+    border: none;
+    display: block;
+    width: 100%;
+  }
 
-    .small-box img,
-    .dataengine img {
-        display: block;
-        margin: 0 auto;
-    }
+  .small-box img,
+  .dataengine img {
+    display: block;
+    margin: 0 auto;
+  }
 }
