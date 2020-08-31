@@ -171,15 +171,19 @@ div h3 {
   color: #0d2d3e;
 }
 
+.data h4 {
+    font-size: 25px;
+}
+
 .data {
   float: right;
-  width: 45%;
+  width: 40%;
   text-align: justify;
 }
 
 .skill {
   float: left;
-  width: 45%;
+  width: 40%;
   text-align: justify;
   padding-bottom: 20px;
 }
@@ -237,6 +241,30 @@ div h3 {
     padding: 50px;
     border: none;
   }
+
+
+ .engine{
+    margin-bottom: 70px;
+  }
+
+  .dataengine img {
+    display: block;
+    margin:0 auto;
+    
+  }
+
+  .data {
+    display: block;
+    width: 100%;
+  }
+
+  .dataengine {
+    display: block;
+    width: 100%;
+    margin: 0;
+
+  }
+
 }
 /* tablet screen */
 @media (max-width: 800px) {
@@ -261,6 +289,35 @@ div h3 {
   img {
     display: block;
     margin: 0 auto;
+  }
+
+  .engine .info {
+    padding: 25px;
+  }
+
+  .dataengine img {
+    display: block;
+    margin:0 auto;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .dataengine {
+    display: block;
+    width: 100%;
+    padding: 0 22px 0 33px;
+    margin: 0;
+
+  }
+
+  .engine{
+    margin-bottom: 70px;
+  }
+
+  .data {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
   }
 }
 
